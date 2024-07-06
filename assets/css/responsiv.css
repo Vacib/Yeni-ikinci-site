@@ -1,0 +1,125 @@
+
+
+@media (max-width:992px){
+  nav .menu ul li{
+      display: none;
+      /* width: 100%; */
+      
+  } 
+  header{
+   width: 130%;
+  }
+  header .container h1{
+    font-size: 44px;
+  }
+
+
+  nav .menu ul  button{
+      display: block;
+   
+  } 
+  .section .container .section-card{
+    width: 130%;
+    padding-left: 30px;
+  }
+ h2{
+    text-align: center;
+    padding-left: 20px;
+ }
+  .section .container .section-card .item-img{
+    width: 50%;
+  display: flex;
+  justify-content: center;
+  }
+  .section .container h2{
+margin-left: 300px;
+  }
+  .section .line{
+ padding-left: 300px;
+  }
+  section .container .line .box{
+    width: 150px;
+  }
+  .about{
+    width: 130%;
+    height: 650px;
+  }
+  .about .container h2{
+    font-size: 40px;
+    padding-right: 60px;
+    width: 50%;
+    text-align: center;
+  }
+  .about .container .text-p{
+    display: block;
+
+  }
+  .about .container .text-p .p1{
+    width: 100%;
+    font-size: 26px;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  .about .container .text-p .p2{
+    width: 100%;
+    font-size: 26px;
+    text-align: justify;
+  }
+
+  .about .container .line{
+width: 50%;
+justify-content: center;
+margin-left: 130px;
+padding-top: 10px;
+
+  }
+  .about .container .line .box{
+  padding: 0 50px;
+  }
+
+  .about .container .download a{
+    margin-bottom: 60px;
+  }
+
+  .contact .container .forms input{
+    width: 100%;
+    font-size: 30px;
+    outline: none;
+  }
+  .contact .container .forms label{
+    font-size: 22px;
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
+  }
+  .contact .container .forms textarea{
+    width: 100%;
+    margin-left: 30px;
+
+  }
+  .contact .container form .btn{
+    position: absolute;
+    left:150px;
+  }
+
+
+}
+@media (max-width:768px){
+.section .container .section-card .item-img{
+        width: 100%;
+        height: 100%;
+      display: flex;
+      justify-content: center;
+      margin-left: 20px;
+      padding-left: 60px;
+    
+      }
+      .section .container .section-card .item-img img{
+       width: 100%;
+       height: 100%;
+      }
+      header{
+        width: 140%;
+       }
+}
+
